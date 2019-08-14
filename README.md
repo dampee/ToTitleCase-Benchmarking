@@ -1,8 +1,8 @@
 # ToTitleCase-Benchmarking
 Because James asked if there is a faster way. https://twitter.com/James_M_South/status/1161638705519448065?s=20
-I am by no means a performance hacker, but after a few minutes (and a second try) I can say: yes there are faster ways than the [TextInfo.ToTitleCase](https://docs.microsoft.com/en-us/dotnet/api/system.globalization.textinfo.totitlecase?view=netframework-4.8)
+I am by no means a performance hacker, but after a few minutes (and a second try) I can say: yes there are faster ways than the [TextInfo.ToTitleCase](https://docs.microsoft.com/en-us/dotnet/api/system.globalization.textinfo.totitlecase?view=netframework-4.8).
 
-// * Summary *
+## Results
 
 BenchmarkDotNet=v0.11.5, OS=Windows 10.0.17134.885 (1803/April2018Update/Redstone4)
 Intel Core i7-6700K CPU 4.00GHz (Skylake), 1 CPU, 8 logical and 4 physical cores
